@@ -1,0 +1,37 @@
+
+Power Report Interval
+30000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testcount/ucounter1/a      1      0     27600 ps      2400 ps         0 ps
+                 /testcount/ucounter1/ck     75      0     14800 ps     15200 ps         0 ps
+              /testcount/ucounter1/reset      1      0       800 ps     29200 ps         0 ps
+               /testcount/ucounter1/s(5)      1      0      4800 ps     25200 ps         0 ps
+               /testcount/ucounter1/s(4)      2      0     12800 ps     17200 ps         0 ps
+               /testcount/ucounter1/s(3)      4      0     12800 ps     17200 ps         0 ps
+               /testcount/ucounter1/s(2)      8      0     12800 ps     17200 ps         0 ps
+               /testcount/ucounter1/s(1)     17      0     13600 ps     16400 ps         0 ps
+               /testcount/ucounter1/s(0)     35      0     13600 ps     16400 ps         0 ps
+            /testcount/ucounter1/stmp(6)      2      0       200 ps     29400 ps       400 ps
+            /testcount/ucounter1/stmp(5)      7      0      5000 ps     24600 ps       400 ps
+            /testcount/ucounter1/stmp(4)     14      0     12800 ps     16800 ps       400 ps
+            /testcount/ucounter1/stmp(3)     28      0     12800 ps     16800 ps       400 ps
+            /testcount/ucounter1/stmp(2)     42      0     13000 ps     16600 ps       400 ps
+            /testcount/ucounter1/stmp(1)     51      0     13800 ps     15800 ps       400 ps
+            /testcount/ucounter1/stmp(0)     35      0     13800 ps     16000 ps       200 ps
+            /testcount/ucounter1/ctmp(6)      2      0       200 ps     29600 ps       200 ps
+            /testcount/ucounter1/ctmp(5)      8      0       800 ps     29000 ps       200 ps
+            /testcount/ucounter1/ctmp(4)     16      0      1600 ps     28200 ps       200 ps
+            /testcount/ucounter1/ctmp(3)     24      0      3200 ps     26600 ps       200 ps
+            /testcount/ucounter1/ctmp(2)     34      0      6600 ps     23200 ps       200 ps
+            /testcount/ucounter1/ctmp(1)     34      0     13600 ps     16200 ps       200 ps
+            /testcount/ucounter1/ctmp(0)      1      0     27600 ps      2400 ps         0 ps
+        /testcount/ucounter1/stmpsync(5)      1      0      4800 ps     25200 ps         0 ps
+        /testcount/ucounter1/stmpsync(4)      2      0     12800 ps     17200 ps         0 ps
+        /testcount/ucounter1/stmpsync(3)      4      0     12800 ps     17200 ps         0 ps
+        /testcount/ucounter1/stmpsync(2)      8      0     12800 ps     17200 ps         0 ps
+        /testcount/ucounter1/stmpsync(1)     17      0     13600 ps     16400 ps         0 ps
+        /testcount/ucounter1/stmpsync(0)     35      0     13600 ps     16400 ps         0 ps
+---------------------------------------------------------------------------------------------
+

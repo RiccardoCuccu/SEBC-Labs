@@ -1,0 +1,70 @@
+ 
+****************************************
+Report : power
+        -net
+        -analysis_effort low
+        -verbose
+        -sort_mode net_switching_power
+Design : RCA/FAI_8 (FA_1)
+Version: F-2011.09-SP3
+Date   : Sun Apr  7 17:22:20 2019
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+RCA                    5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+n1                             4.694    0.499    0.1889      0.5365  
+n2                             2.010    0.484    0.1772      0.2155  
+S                              0.310    0.497    0.3328      0.0624  
+Co                             0.310    0.516    0.1772      0.0332  
+--------------------------------------------------------------------------------
+Total (4 nets)                                             847.5643 nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+      m  -  Multiply-driven net
+
+                          Net         Driver     Tot Dynamic     Driver
+                          Switching   Internal   Power           Leakage
+Net                       Power       Power      (% Net/Tot)     Power    Attrs
+--------------------------------------------------------------------------------
+n1                           0.5365     0.5757     1.112 (48%)    36.1637   
+n2                           0.2155     0.4278     0.643 (33%)    32.7466   
+S                            0.0624     0.9733     1.036 (6%)     36.1631   
+Co                           0.0332     0.1774     0.211 (16%)    14.2174   
+--------------------------------------------------------------------------------
+Totals (4 nets)            847.564nW    2.154uW    3.002uW (28%) 119.291nW
+1

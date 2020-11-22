@@ -1,0 +1,265 @@
+
+Running eldo on localhost.localdomain
+
+with Eldo libraries :
+/software/mentor/ams_2008.1_64/aol/lib/libeldoudm_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomos1_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldoekv_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomosp9_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldocsem_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomos2_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomos3_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldobip_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldodio_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldojfet_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldosoi_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomos4_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldoasitft_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldohisim_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldospmod_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldopsp_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomosvar_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldomoto_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldost_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldobnr_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldorockw_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldopubhicum_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldotftsh_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldobta_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldofas_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldofascm_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldova_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldovafnc_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldosdsim_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldoudrm_64.so
+/software/mentor/ams_2008.1_64/aol/lib/libeldowire_64.so
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** ANALYSIS ....
+
+Warning 1071: In file "/home/mg.lowpower/lowpower/ese5/lib/mos_bsim3_HS.lib" line 756:
++   COMMAND .PRINT is ignored because of unexpected keyword 'VTH'.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 25:
++   In model: "DNPPSD". Parameter: "ISRH" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 25:
++   In model: "DNPPSD". Parameter: "CSO" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 26:
++   In model: "DNPPSD". Parameter: "MS" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 56:
++   In model: "DPPNWD". Parameter: "ISRH" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 56:
++   In model: "DPPNWD". Parameter: "CSO" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 57:
++   In model: "DPPNWD". Parameter: "MS" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 87:
++   In model: "DNWPSD". Parameter: "ISRH" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 87:
++   In model: "DNWPSD". Parameter: "CSO" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 88:
++   In model: "DNWPSD". Parameter: "MS" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 118:
++   In model: "DPWNISOD". Parameter: "ISRH" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 118:
++   In model: "DPWNISOD". Parameter: "CSO" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 119:
++   In model: "DPWNISOD". Parameter: "MS" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 149:
++   In model: "DNPPS3V3D". Parameter: "ISRH" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 149:
++   In model: "DNPPS3V3D". Parameter: "CSO" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 150:
++   In model: "DNPPS3V3D". Parameter: "MS" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 180:
++   In model: "DPPNW3V3D". Parameter: "ISRH" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 180:
++   In model: "DPPNW3V3D". Parameter: "CSO" ignored.
+Warning 902: In file "/home/mg.lowpower/lowpower/ese5/lib/diode.lib" line 181:
++   In model: "DPPNW3V3D". Parameter: "MS" ignored.
+
+***** 0  error(s). 
+***** 19  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 252: In file "/home/mg.lowpower/lowpower/ese5/lib/CMOS013.spi" line 97:
++   OBJECT "XNAND.C2": Self-connected object not created.
+Warning 382: COMMAND .OPTION EPS Value set to 1.000000E-09
++   This setting gives higher accuracy than default tuning,
++   but simulation time may increase.
+
+***** 0  error(s). 
+***** 21  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 9781506
+20 elements
+8 nodes 
+5 input signals
+
+
+run number 1 out of 2
+   value of parameter LOAD is 6.000000E-17
+
+
+Eldo VERSION : ELDO 2008.1 Production(64 bits) Mon Jun 30 08:52:46 GMT 2008
+
+*** DATE: 23-May-2019 14:17:10
+
+*** TITLE: * Characterizing a nand with maximum load
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:3 iterations FOR DC analysis
+GND_INT      0.0       
+INA          1.2000E+00
+INB          0.0       
+OUT          1.2000E+00
+OUTBIS       1.2000E+00
+VDD          1.2000E+00
+VDD_INT      1.2000E+00
+XNAND.NET15  3.0361E-07
+
+   TOTAL POWER DISSIPATION:  4.4509E-10 WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-09 RELTOL=1.000000e-06
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost localhost.localdomain -jwdbport 40581
+
+Compute from 0.000000 Nano to 3.000000 Nano
+................................................
+Simulation progress           : 25%
+Elapsed CPU time              : 0h 0mn 0s 0
+................................................
+Simulation progress           : 50%
+Elapsed CPU time              : 0h 0mn 0s 40
+................................................
+Simulation progress           : 75%
+Elapsed CPU time              : 0h 0mn 0s 70
+................................................
+Simulation progress           : 100%
+Elapsed CPU time              : 0h 0mn 0s 80
+
+
+***>Current simulation completed
+
+
+ RNAND         =  7.1556E-11   
+ FNAND         =  6.3464E-11   
+ NANDDELAYHL   =  3.1612E-11   
+ NANDDELAYLH   =  5.2657E-11   
+ IPEAKMAX_C    =  1.0745E-06   
+ IPEAKMIN_C    = -1.3351E-06   
+ IPEAKMAX_GND  =  5.1878E-05   
+ IPEAKMIN_GND  = -5.7358E-06   
+ IPEAKMAX_VDD  =  5.9895E-06   
+ IPEAKMIN_VDD  = -4.2315E-05   
+
+
+
+***>CPU TIME 0s 080ms <***
+
+
+
+run number 2 out of 2
+   value of parameter LOAD is 6.000000E-14
+
+
+Eldo VERSION : ELDO 2008.1 Production(64 bits) Mon Jun 30 08:52:46 GMT 2008
+
+*** DATE: 23-May-2019 14:17:12
+
+*** TITLE: * Characterizing a nand with maximum load
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:1 iterations FOR DC analysis
+GND_INT      0.0       
+INA          1.2000E+00
+INB          0.0       
+OUT          1.2000E+00
+OUTBIS       1.2000E+00
+VDD          1.2000E+00
+VDD_INT      1.2000E+00
+XNAND.NET15  3.0361E-07
+
+   TOTAL POWER DISSIPATION:  4.4509E-10 WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-09 RELTOL=1.000000e-06
+
+Compute from 0.000000 Nano to 3.000000 Nano
+................................................
+Simulation progress           : 25%
+Elapsed CPU time              : 0h 0mn 0s 0
+................................................
+Simulation progress           : 50%
+Elapsed CPU time              : 0h 0mn 0s 20
+................................................
+Simulation progress           : 75%
+Elapsed CPU time              : 0h 0mn 0s 50
+................................................
+Simulation progress           : 100%
+Elapsed CPU time              : 0h 0mn 0s 80
+
+
+***>Current simulation completed
+
+
+ RNAND         =  5.9223E-10   
+ FNAND         =  4.0623E-10   
+ NANDDELAYHL   =  2.5767E-10   
+ NANDDELAYLH   =  3.3122E-10   
+ IPEAKMAX_C    =  1.4472E-04   
+ IPEAKMIN_C    = -1.8652E-04   
+ IPEAKMAX_GND  =  1.9422E-04   
+ IPEAKMIN_GND  = -2.0618E-06   
+ IPEAKMAX_VDD  =  3.2626E-06   
+ IPEAKMIN_VDD  = -1.5176E-04   
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 10568390
+Latency: 0.000000%
+average number of newton iterations: 2.386740
+nb of components: 20
+nb of nodes: 8
+nb of MOS or BIP calls: 3481
+Number of steps computed: 270
+
+***>CPU TIME 0s 080ms <***
+
+
+***>GLOBAL CPU TIME 0s 370ms <***
+
+
+***>GLOBAL ELAPSED TIME 3s <***
+
+

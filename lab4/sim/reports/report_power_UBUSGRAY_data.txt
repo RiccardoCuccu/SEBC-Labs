@@ -1,0 +1,58 @@
+
+Power Report Interval
+100000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testbench/UBUSGRAY/ck  20000      0  50000000 ps  50000000 ps         0 ps
+                 /testbench/UBUSGRAY/rst      2      0       200 ps  99999800 ps         0 ps
+                /testbench/UBUSGRAY/a(7)   4974      0  50030000 ps  49970000 ps         0 ps
+                /testbench/UBUSGRAY/a(6)   5022      0  49460000 ps  50540000 ps         0 ps
+                /testbench/UBUSGRAY/a(5)   4987      0  49384900 ps  50615100 ps         0 ps
+                /testbench/UBUSGRAY/a(4)   4972      0  49970000 ps  50030000 ps         0 ps
+                /testbench/UBUSGRAY/a(3)   4960      0  51250000 ps  48750000 ps         0 ps
+                /testbench/UBUSGRAY/a(2)   4965      0  49894900 ps  50105100 ps         0 ps
+                /testbench/UBUSGRAY/a(1)   5024      0  50000000 ps  50000000 ps         0 ps
+                /testbench/UBUSGRAY/a(0)   5060      0  49940000 ps  50060000 ps         0 ps
+                /testbench/UBUSGRAY/b(7)   4974      0  50030000 ps  49969900 ps       100 ps
+                /testbench/UBUSGRAY/b(6)   5087      0  50105000 ps  49894900 ps       100 ps
+                /testbench/UBUSGRAY/b(5)   4952      0  50100000 ps  49899900 ps       100 ps
+                /testbench/UBUSGRAY/b(4)   4981      0  50505000 ps  49494900 ps       100 ps
+                /testbench/UBUSGRAY/b(3)   4937      0  49415000 ps  50584900 ps       100 ps
+                /testbench/UBUSGRAY/b(2)   5056      0  50320000 ps  49679900 ps       100 ps
+                /testbench/UBUSGRAY/b(1)   4962      0  50710000 ps  49289900 ps       100 ps
+                /testbench/UBUSGRAY/b(0)   5075      0  49715000 ps  50284900 ps       100 ps
+                /testbench/UBUSGRAY/c(7)   4973      0  50025000 ps  49974900 ps       100 ps
+                /testbench/UBUSGRAY/c(6)  10059      0  49445000 ps  50554900 ps       100 ps
+                /testbench/UBUSGRAY/c(5)  15011      0  49365000 ps  50634900 ps       100 ps
+                /testbench/UBUSGRAY/c(4)  19992      0  49970000 ps  50029900 ps       100 ps
+                /testbench/UBUSGRAY/c(3)  24928      0  51240000 ps  48759900 ps       100 ps
+                /testbench/UBUSGRAY/c(2)  29984      0  49880000 ps  50119900 ps       100 ps
+                /testbench/UBUSGRAY/c(1)  34945      0  49985000 ps  50014900 ps       100 ps
+                /testbench/UBUSGRAY/c(0)  40020      0  49940000 ps  50059900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(7)   4973      0  50025000 ps  49974900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(6)   5086      0  50100000 ps  49899900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(5)   4952      0  50100000 ps  49899900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(4)   4981      0  50495000 ps  49504900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(3)   4936      0  49410000 ps  50589900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(2)   5056      0  50320000 ps  49679900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(1)   4961      0  50705000 ps  49294900 ps       100 ps
+             /testbench/UBUSGRAY/btmp(0)   5075      0  49705000 ps  50294900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(7)   4973      0  50025000 ps  49974900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(6)  10059      0  49445000 ps  50554900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(5)  15011      0  49365000 ps  50634900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(4)  19992      0  49970000 ps  50029900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(3)  24928      0  51240000 ps  48759900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(2)  29984      0  49880000 ps  50119900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(1)  34945      0  49985000 ps  50014900 ps       100 ps
+            /testbench/UBUSGRAY/c_tmp(0)  40020      0  49940000 ps  50059900 ps       100 ps
+             /testbench/UBUSGRAY/buss(7)   4974      0  50030000 ps  49969900 ps       100 ps
+             /testbench/UBUSGRAY/buss(6)   5087      0  50105000 ps  49894900 ps       100 ps
+             /testbench/UBUSGRAY/buss(5)   4952      0  50100000 ps  49899900 ps       100 ps
+             /testbench/UBUSGRAY/buss(4)   4981      0  50505000 ps  49494900 ps       100 ps
+             /testbench/UBUSGRAY/buss(3)   4937      0  49415000 ps  50584900 ps       100 ps
+             /testbench/UBUSGRAY/buss(2)   5056      0  50320000 ps  49679900 ps       100 ps
+             /testbench/UBUSGRAY/buss(1)   4962      0  50710000 ps  49289900 ps       100 ps
+             /testbench/UBUSGRAY/buss(0)   5075      0  49715000 ps  50284900 ps       100 ps
+---------------------------------------------------------------------------------------------
+

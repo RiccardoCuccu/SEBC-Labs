@@ -1,0 +1,66 @@
+
+Power Report Interval
+100000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testbench/UBUSTRAN/ck  20000      0  50000000 ps  50000000 ps         0 ps
+                 /testbench/UBUSTRAN/rst      2      0       200 ps  99999800 ps         0 ps
+                /testbench/UBUSTRAN/a(7)     97      0  48164900 ps  51835100 ps         0 ps
+                /testbench/UBUSTRAN/a(6)    118      0  37760000 ps  62240000 ps         0 ps
+                /testbench/UBUSTRAN/a(5)    312      0  49927000 ps  50073000 ps         0 ps
+                /testbench/UBUSTRAN/a(4)    625      0  49931900 ps  50068100 ps         0 ps
+                /testbench/UBUSTRAN/a(3)   1250      0  50007000 ps  49993000 ps         0 ps
+                /testbench/UBUSTRAN/a(2)   2500      0  50007000 ps  49993000 ps         0 ps
+                /testbench/UBUSTRAN/a(1)   5000      0  50007000 ps  49993000 ps         0 ps
+                /testbench/UBUSTRAN/a(0)  10000      0  50007000 ps  49993000 ps         0 ps
+                /testbench/UBUSTRAN/b(7)   4816      0  24080000 ps  75919900 ps       100 ps
+                /testbench/UBUSTRAN/b(6)   3776      0  18880000 ps  81119900 ps       100 ps
+                /testbench/UBUSTRAN/b(5)   4992      0  24960000 ps  75039900 ps       100 ps
+                /testbench/UBUSTRAN/b(4)   4992      0  24960000 ps  75039900 ps       100 ps
+                /testbench/UBUSTRAN/b(3)   5000      0  25000000 ps  74999900 ps       100 ps
+                /testbench/UBUSTRAN/b(2)   5000      0  25000000 ps  74999900 ps       100 ps
+                /testbench/UBUSTRAN/b(1)   5000      0  25000000 ps  74999900 ps       100 ps
+                /testbench/UBUSTRAN/b(0)   5000      0  50000000 ps  49999900 ps       100 ps
+                /testbench/UBUSTRAN/c(7)     97      0  48145000 ps  51854900 ps       100 ps
+                /testbench/UBUSTRAN/c(6)    118      0  37760000 ps  62239900 ps       100 ps
+                /testbench/UBUSTRAN/c(5)    312      0  49920000 ps  50079900 ps       100 ps
+                /testbench/UBUSTRAN/c(4)    624      0  49920000 ps  50079900 ps       100 ps
+                /testbench/UBUSTRAN/c(3)   1249      0  49985000 ps  50014900 ps       100 ps
+                /testbench/UBUSTRAN/c(2)   2499      0  49985000 ps  50014900 ps       100 ps
+                /testbench/UBUSTRAN/c(1)   4999      0  49985000 ps  50014900 ps       100 ps
+                /testbench/UBUSTRAN/c(0)   9998      0  49990000 ps  50009900 ps       100 ps
+             /testbench/UBUSTRAN/buss(7)   4816      0  24080000 ps  75919900 ps       100 ps
+             /testbench/UBUSTRAN/buss(6)   3776      0  18880000 ps  81119900 ps       100 ps
+             /testbench/UBUSTRAN/buss(5)   4992      0  24960000 ps  75039900 ps       100 ps
+             /testbench/UBUSTRAN/buss(4)   4992      0  24960000 ps  75039900 ps       100 ps
+             /testbench/UBUSTRAN/buss(3)   5000      0  25000000 ps  74999900 ps       100 ps
+             /testbench/UBUSTRAN/buss(2)   5000      0  25000000 ps  74999900 ps       100 ps
+             /testbench/UBUSTRAN/buss(1)   5000      0  25000000 ps  74999900 ps       100 ps
+             /testbench/UBUSTRAN/buss(0)   5000      0  50000000 ps  49999900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(7)   4815      0  24075000 ps  75924900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(6)   3776      0  18880000 ps  81119900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(5)   4992      0  24960000 ps  75039900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(4)   4992      0  24960000 ps  75039900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(3)   4999      0  24995000 ps  75004900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(2)   4999      0  24995000 ps  75004900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(1)   4999      0  24995000 ps  75004900 ps       100 ps
+             /testbench/UBUSTRAN/cenc(0)   4999      0  49995000 ps  50004900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(7)   4814      0  24070000 ps  75929900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(6)   3776      0  18880000 ps  81119900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(5)   4992      0  24960000 ps  75039900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(4)   4992      0  24960000 ps  75039900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(3)   4998      0  24990000 ps  75009900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(2)   4998      0  24990000 ps  75009900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(1)   4998      0  24990000 ps  75009900 ps       100 ps
+          /testbench/UBUSTRAN/cencold(0)   4999      0  49985000 ps  50014900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(7)     97      0  48145000 ps  51854900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(6)    118      0  37760000 ps  62239900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(5)    312      0  49920000 ps  50079900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(4)    624      0  49920000 ps  50079900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(3)   1249      0  49985000 ps  50014900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(2)   2499      0  49985000 ps  50014900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(1)   4999      0  49985000 ps  50014900 ps       100 ps
+          /testbench/UBUSTRAN/cdectmp(0)   9998      0  49990000 ps  50009900 ps       100 ps
+---------------------------------------------------------------------------------------------
+

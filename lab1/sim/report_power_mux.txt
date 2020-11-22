@@ -1,0 +1,15 @@
+
+Power Report Interval
+5000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                           /tbmux21bis/a      1      0      5000 ps         0 ps         0 ps
+                           /tbmux21bis/b      1      0      5000 ps         0 ps         0 ps
+                           /tbmux21bis/s      3      0      4000 ps      1000 ps         0 ps
+                           /tbmux21bis/y      3      0      4900 ps       100 ps         0 ps
+                           /tbmux21bis/n      2      0      1000 ps      3900 ps       100 ps
+                           /tbmux21bis/z      3      0      4000 ps      1000 ps         0 ps
+                           /tbmux21bis/x      2      1      1000 ps      3900 ps       100 ps
+---------------------------------------------------------------------------------------------
+

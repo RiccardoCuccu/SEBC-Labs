@@ -1,0 +1,28 @@
+
+Power Report Interval
+2000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                          /tbrca/din(14)      1      0      1000 ps      1000 ps         0 ps
+                          /tbrca/din(12)      1      0      1000 ps      1000 ps         0 ps
+                          /tbrca/din(10)      1      0      1000 ps      1000 ps         0 ps
+                           /tbrca/din(5)      1      0      1000 ps      1000 ps         0 ps
+                           /tbrca/din(3)      1      0      1000 ps      1000 ps         0 ps
+                           /tbrca/din(1)      1      0      1000 ps      1000 ps         0 ps
+                           /tbrca/din(0)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/a(7)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/a(5)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/a(3)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/a(2)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/b(6)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/b(4)      1      0      1000 ps      1000 ps         0 ps
+                             /tbrca/b(2)      1      0      1000 ps      1000 ps         0 ps
+                            /tbrca/s2(7)      6      0        90 ps      1850 ps        60 ps
+                            /tbrca/s2(6)      5      0      1030 ps       910 ps        60 ps
+                            /tbrca/s2(5)      4      0        60 ps      1880 ps        60 ps
+                            /tbrca/s2(4)      3      0      1000 ps       940 ps        60 ps
+                            /tbrca/s2(3)      2      0        30 ps      1910 ps        60 ps
+                              /tbrca/co2      6      0      1880 ps        90 ps        30 ps
+---------------------------------------------------------------------------------------------
+

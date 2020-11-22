@@ -1,0 +1,15 @@
+
+Power Report Interval
+6500 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                              /tbadd/clk     13      0      3000 ps      3500 ps         0 ps
+                            /tbadd/reset      1      0      1000 ps      5500 ps         0 ps
+                           /tbadd/sum(4)      2      0      1000 ps      5500 ps         0 ps
+                           /tbadd/sum(3)      2      0      2000 ps      4500 ps         0 ps
+                           /tbadd/sum(2)      4      0      3000 ps      3500 ps         0 ps
+                           /tbadd/sum(1)      3      0      4000 ps      2500 ps         0 ps
+                           /tbadd/sum(0)      3      0      3000 ps      3500 ps         0 ps
+---------------------------------------------------------------------------------------------
+

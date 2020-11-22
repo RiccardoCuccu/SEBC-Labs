@@ -1,0 +1,39 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fsm_adder
+Version: F-2011.09-SP3
+Date   : Wed Jun 19 18:46:31 2019
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: current_state_reg[0]
+              (rising edge-triggered flip-flop)
+  Endpoint: SEL11 (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm_adder          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  current_state_reg[0]/CK (DFFR_X1)        0.00       0.00 r
+  current_state_reg[0]/QN (DFFR_X1)        0.08       0.08 f
+  U6/ZN (NOR2_X1)                          0.05       0.13 r
+  U5/ZN (INV_X1)                           0.02       0.15 f
+  U4/ZN (OAI21_X1)                         0.03       0.18 r
+  SEL11 (out)                              0.00       0.18 r
+  data arrival time                                   0.18
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

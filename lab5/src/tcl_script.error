@@ -1,0 +1,14 @@
+Unexpected error: wrong # args: should be "design::change_dir win file"
+wrong # args: should be "design::change_dir win file"
+    while executing
+"design::change_dir .load_design"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 $itk_option(-command)"
+    (object "::.load_design.tab.canvas.notebook.cs.page1.cs.sim.1.paned.file.design.childsite.f1.lab" method "::iwidgets::Entryfield::_keyPress" body line 6)
+    invoked from within
+"::.load_design.tab.canvas.notebook.cs.page1.cs.sim.1.paned.file.design.childsite.f1.lab _keyPress \r Return 16"
+    (in namespace inscope "::iwidgets::Entryfield" script line 1)
+    invoked from within
+"namespace inscope ::iwidgets::Entryfield {::.load_design.tab.canvas.notebook.cs.page1.cs.sim.1.paned.file.design.childsite.f1.lab _keyPress \r Return ..."
+    (command bound to event)

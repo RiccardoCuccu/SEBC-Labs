@@ -1,0 +1,26 @@
+Stack Trace Dump
+Program = /software/mentor/ams_2008.1_64/aol/bin/eldo_64.exe (v6.11_1.1)
+Date = Thu Jul  4 15:43:28 2019
+# Level    PC      Function Name+offset  filename
+#====================================================
+#   0  0x0000000000907691: <unknown @0x907691>
+#   1  0x0000000000907620: eldo_dump_callstack+0x78 [eldo_64.exe]
+#   2  0x000000000082d422: FAULT_exit+0x1a5 [eldo_64.exe]
+#   3  0x00007f0fa01c9280: +0x36280 [libc.so.6]
+#   4  0x0000000000d30fe0: code_what_to_plot_hier+0x91 [eldo_64.exe]
+#   5  0x0000000000d30e56: code_what_to_plot_typac+0x51 [eldo_64.exe]
+#   6  0x0000000000727aa7: load_plo_prin_code+0x142 [eldo_64.exe]
+#   7  0x0000000000734a65: ismeas+0xb51 [eldo_64.exe]
+#   8  0x00000000007412cd: icous+0x1350 [eldo_64.exe]
+#   9  0x0000000000744ea8: sommtabl_after_machpart+0x118 [eldo_64.exe]
+#  10  0x000000000074500c: sommtabl+0x7e [eldo_64.exe]
+#  11  0x000000000069cb3a: eldo_generation2+0x9f [eldo_64.exe]
+#  12  0x000000000069cd66: eldo_generation+0x19 [eldo_64.exe]
+#  13  0x000000000069f7d6: aldoprince+0xb52 [eldo_64.exe]
+#  14  0x000000000068a9d6: aeldosub+0x2e3 [eldo_64.exe]
+#  15  0x000000000068c3b7: aeldo+0x529 [eldo_64.exe]
+#  16  0x000000000066d49f: main+0xb [eldo_64.exe]
+#  17  0x00007f0fa01b53d5: __libc_start_main+0xf5 [libc.so.6]
+#  18  0x00000000006628aa: bsim3soiv2_alloc_field+0x7a [eldo_64.exe]
+# End of Stack Trace
+

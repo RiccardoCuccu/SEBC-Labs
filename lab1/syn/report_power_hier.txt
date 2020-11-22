@@ -1,0 +1,47 @@
+ 
+****************************************
+Report : power
+        -hier
+        -analysis_effort low
+Design : RCA
+Version: F-2011.09-SP3
+Date   : Sun Apr  7 17:22:19 2019
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+RCA                    5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+--------------------------------------------------------------------------------
+                                       Switch   Int      Leak     Total
+Hierarchy                              Power    Power    Power    Power    %
+--------------------------------------------------------------------------------
+RCA                                       9.741   16.743  953.483   27.437 100.0
+  FAI_8 (FA_1)                            0.848    2.154  119.291    3.121  11.4
+  FAI_7 (FA_2)                            1.293    2.150  118.962    3.562  13.0
+  FAI_6 (FA_3)                            1.332    2.191  119.340    3.642  13.3
+  FAI_5 (FA_4)                            1.328    2.171  119.110    3.618  13.2
+  FAI_4 (FA_5)                            1.278    2.101  119.294    3.498  12.7
+  FAI_3 (FA_6)                            1.263    2.090  118.979    3.471  12.7
+  FAI_2 (FA_7)                            1.229    2.002  119.508    3.351  12.2
+  FAI_1 (FA_0)                            1.171    1.884  118.999    3.175  11.6
+1

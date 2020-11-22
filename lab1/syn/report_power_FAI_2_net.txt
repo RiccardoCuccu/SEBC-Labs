@@ -1,0 +1,32 @@
+Warning: Can't find object 'power' in design 'RCA'. (UID-95)
+ 
+****************************************
+Report : net
+Design : RCA/FAI_2 (FA_7)
+Version: F-2011.09-SP3
+Date   : Sun Apr  7 12:43:40 2019
+****************************************
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+RCA                    5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Net                 Fanout     Fanin      Load   Resistance    Pins   Attributes
+--------------------------------------------------------------------------------
+A                        2         1      4.62         0.01       3   
+B                        2         1      4.80         0.01       3   
+Ci                       2         1      4.55         0.01       3   
+Co                       2         1      4.55         0.01       3   
+S                        1         1      0.31         0.01       2   
+n1                       2         1      4.69         0.01       3   
+n2                       1         1      2.01         0.01       2   
+--------------------------------------------------------------------------------
+Total 7 nets            12         7     25.54         0.08      19
+Maximum                  2         1      4.80         0.01       3
+Average               1.71      1.00      3.65         0.01    2.71
+1

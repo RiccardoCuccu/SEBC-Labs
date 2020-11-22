@@ -1,0 +1,36 @@
+
+Power Report Interval
+6500 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+       /tbadd/top_test/datapath/mux03(4)      2      0      1000 ps      5500 ps         0 ps
+       /tbadd/top_test/datapath/mux03(3)      2      0      2000 ps      4500 ps         0 ps
+       /tbadd/top_test/datapath/mux03(2)      4      0      3000 ps      3500 ps         0 ps
+       /tbadd/top_test/datapath/mux03(1)      3      0      4000 ps      2500 ps         0 ps
+       /tbadd/top_test/datapath/mux03(0)      3      0      3000 ps      3500 ps         0 ps
+       /tbadd/top_test/datapath/mux11(4)      2      0      1000 ps      5500 ps         0 ps
+       /tbadd/top_test/datapath/mux11(3)      2      0      2000 ps      4500 ps         0 ps
+       /tbadd/top_test/datapath/mux11(2)      4      0      3000 ps      3500 ps         0 ps
+       /tbadd/top_test/datapath/mux11(1)      3      0      4000 ps      2500 ps         0 ps
+       /tbadd/top_test/datapath/mux11(0)      3      0      3000 ps      3500 ps         0 ps
+          /tbadd/top_test/datapath/clock     13      0      3000 ps      3500 ps         0 ps
+          /tbadd/top_test/datapath/reset      1      0      1000 ps      5500 ps         0 ps
+          /tbadd/top_test/datapath/sel00      2      0      3000 ps      3500 ps         0 ps
+          /tbadd/top_test/datapath/sel01      3      0      2000 ps      4500 ps         0 ps
+          /tbadd/top_test/datapath/sel10      2      0      2000 ps      4500 ps         0 ps
+          /tbadd/top_test/datapath/sel11      3      0      3000 ps      3500 ps         0 ps
+         /tbadd/top_test/datapath/sum(4)      2      0      1000 ps      5500 ps         0 ps
+         /tbadd/top_test/datapath/sum(3)      2      0      2000 ps      4500 ps         0 ps
+         /tbadd/top_test/datapath/sum(2)      4      0      3000 ps      3500 ps         0 ps
+         /tbadd/top_test/datapath/sum(1)      3      0      4000 ps      2500 ps         0 ps
+         /tbadd/top_test/datapath/sum(0)      3      0      3000 ps      3500 ps         0 ps
+    /tbadd/top_test/datapath/operanda(3)      2      0      2000 ps      4500 ps         0 ps
+    /tbadd/top_test/datapath/operanda(2)      4      0      2000 ps      4500 ps         0 ps
+    /tbadd/top_test/datapath/operanda(1)      5      0      3000 ps      3500 ps         0 ps
+    /tbadd/top_test/datapath/operanda(0)      2      0      4500 ps      2000 ps         0 ps
+    /tbadd/top_test/datapath/operandb(2)      2      0      3000 ps      3500 ps         0 ps
+    /tbadd/top_test/datapath/operandb(1)      2      0      5500 ps      1000 ps         0 ps
+    /tbadd/top_test/datapath/operandb(0)      5      0      2000 ps      4500 ps         0 ps
+---------------------------------------------------------------------------------------------
+

@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : FSM
+Design : fsm_adder
+Version: F-2011.09-SP3
+Date   : Wed Jun 19 18:37:18 2019
+****************************************
+
+
+Clock             : Unspecified
+Asynchronous Reset: Unspecified
+
+Encoding Bit Length: 3
+Encoding style     : auto
+
+State Vector: { current_state_reg[2] current_state_reg[1] current_state_reg[0] }
+
+
+State Encodings and Order: 
+
+S1         : 000
+S2         : 001
+S3         : 011
+S4         : 111
+S5         : 110
+
+
+1

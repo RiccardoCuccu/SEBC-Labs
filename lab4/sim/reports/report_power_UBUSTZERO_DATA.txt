@@ -1,0 +1,69 @@
+
+Power Report Interval
+100000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                 /testbench/UBUSTZERO/ck  20000      0  50000000 ps  50000000 ps         0 ps
+                /testbench/UBUSTZERO/rst      2      0       200 ps  99999800 ps         0 ps
+               /testbench/UBUSTZERO/a(7)   4974      0  50030000 ps  49970000 ps         0 ps
+               /testbench/UBUSTZERO/a(6)   5022      0  49460000 ps  50540000 ps         0 ps
+               /testbench/UBUSTZERO/a(5)   4987      0  49384900 ps  50615100 ps         0 ps
+               /testbench/UBUSTZERO/a(4)   4972      0  49970000 ps  50030000 ps         0 ps
+               /testbench/UBUSTZERO/a(3)   4960      0  51250000 ps  48750000 ps         0 ps
+               /testbench/UBUSTZERO/a(2)   4965      0  49894900 ps  50105100 ps         0 ps
+               /testbench/UBUSTZERO/a(1)   5024      0  50000000 ps  50000000 ps         0 ps
+               /testbench/UBUSTZERO/a(0)   5060      0  49940000 ps  50060000 ps         0 ps
+               /testbench/UBUSTZERO/b(8)     72      0    360000 ps  99639900 ps       100 ps
+               /testbench/UBUSTZERO/b(7)   4974      0  50030000 ps  49969900 ps       100 ps
+               /testbench/UBUSTZERO/b(6)   5021      0  49455000 ps  50544900 ps       100 ps
+               /testbench/UBUSTZERO/b(5)   4987      0  49375000 ps  50624900 ps       100 ps
+               /testbench/UBUSTZERO/b(4)   4972      0  49970000 ps  50029900 ps       100 ps
+               /testbench/UBUSTZERO/b(3)   4957      0  51235000 ps  48764900 ps       100 ps
+               /testbench/UBUSTZERO/b(2)   4963      0  49845000 ps  50154900 ps       100 ps
+               /testbench/UBUSTZERO/b(1)   5001      0  49935000 ps  50064900 ps       100 ps
+               /testbench/UBUSTZERO/b(0)   5028      0  49940000 ps  50059900 ps       100 ps
+               /testbench/UBUSTZERO/c(7)   4973      0  50025000 ps  49974900 ps       100 ps
+               /testbench/UBUSTZERO/c(6)   5021      0  49445000 ps  50554900 ps       100 ps
+               /testbench/UBUSTZERO/c(5)   4987      0  49365000 ps  50634900 ps       100 ps
+               /testbench/UBUSTZERO/c(4)   4972      0  49970000 ps  50029900 ps       100 ps
+               /testbench/UBUSTZERO/c(3)   4958      0  51240000 ps  48759900 ps       100 ps
+               /testbench/UBUSTZERO/c(2)   4964      0  49880000 ps  50119900 ps       100 ps
+               /testbench/UBUSTZERO/c(1)   5023      0  49985000 ps  50014900 ps       100 ps
+               /testbench/UBUSTZERO/c(0)   5060      0  49940000 ps  50059900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(7)   4974      0  50030000 ps  49969900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(6)   5021      0  49455000 ps  50544900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(5)   4987      0  49375000 ps  50624900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(4)   4972      0  49970000 ps  50029900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(3)   4957      0  51235000 ps  48764900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(2)   4963      0  49845000 ps  50154900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(1)   5001      0  49935000 ps  50064900 ps       100 ps
+           /testbench/UBUSTZERO/a_cod(0)   5028      0  49940000 ps  50059900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(7)   4974      0  50030000 ps  49969900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(6)   5021      0  49455000 ps  50544900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(5)   4987      0  49375000 ps  50624900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(4)   4972      0  49970000 ps  50029900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(3)   4959      0  51245000 ps  48754900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(2)   4965      0  49885000 ps  50114900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(1)   5023      0  49995000 ps  50004900 ps       100 ps
+        /testbench/UBUSTZERO/a_notcod(0)   5060      0  49940000 ps  50059900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(7)   4977      0  50075000 ps  49924900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(6)   5025      0  49285000 ps  50714900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(5)   4971      0  49275000 ps  50724900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(4)   4932      0  50070000 ps  49929900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(3)   4978      0  51050000 ps  48949900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(2)   4962      0  49770000 ps  50229900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(1)   5075      0  49705000 ps  50294900 ps       100 ps
+           /testbench/UBUSTZERO/c_inc(0)   5060      0  50059900 ps  49940000 ps       100 ps
+             /testbench/UBUSTZERO/mux(7)   4974      0  50030000 ps  49969900 ps       100 ps
+             /testbench/UBUSTZERO/mux(6)   5021      0  49455000 ps  50544900 ps       100 ps
+             /testbench/UBUSTZERO/mux(5)   4987      0  49375000 ps  50624900 ps       100 ps
+             /testbench/UBUSTZERO/mux(4)   4972      0  49970000 ps  50029900 ps       100 ps
+             /testbench/UBUSTZERO/mux(3)   4959      0  51245000 ps  48754900 ps       100 ps
+             /testbench/UBUSTZERO/mux(2)   4965      0  49885000 ps  50114900 ps       100 ps
+             /testbench/UBUSTZERO/mux(1)   5023      0  49995000 ps  50004900 ps       100 ps
+             /testbench/UBUSTZERO/mux(0)   5060      0  49940000 ps  50059900 ps       100 ps
+                /testbench/UBUSTZERO/inc     72      0    360000 ps  99639900 ps       100 ps
+               /testbench/UBUSTZERO/comp     73      0    356400 ps  99643600 ps         0 ps
+---------------------------------------------------------------------------------------------
+

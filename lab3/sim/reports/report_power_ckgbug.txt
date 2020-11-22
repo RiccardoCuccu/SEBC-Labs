@@ -1,0 +1,25 @@
+
+Power Report Interval
+3500000 fs
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                              /ckgbug/ck      7      0   1500000 fs   2000000 fs         0 fs
+                           /ckgbug/reset      2      0    100000 fs   3400000 fs         0 fs
+                           /ckgbug/d2(0)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d2(1)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d2(2)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d2(3)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d2(4)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d2(5)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d2(6)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(6)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(5)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(4)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(3)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(2)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(1)      1      0   3000000 fs    400000 fs    100000 fs
+                           /ckgbug/d3(0)      1      0   3000000 fs    400000 fs    100000 fs
+                          /ckgbug/strobe      7      0   1500000 fs   2000000 fs         0 fs
+---------------------------------------------------------------------------------------------
+

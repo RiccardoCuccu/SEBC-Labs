@@ -1,0 +1,63 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : inccomp
+Version: F-2011.09-SP3
+Date   : Sat Jun  8 17:42:02 2019
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: synchb_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: C_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  inccomp            5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  synchb_reg[0]/CK (DFFR_X1)               0.00       0.00 r
+  synchb_reg[0]/Q (DFFR_X1)                0.11       0.11 r
+  r68/A[0] (inccomp_DW01_inc_0)            0.00       0.11 r
+  r68/U1_1_1/CO (HA_X1)                    0.07       0.18 r
+  r68/U1_1_2/CO (HA_X1)                    0.06       0.24 r
+  r68/U1_1_3/CO (HA_X1)                    0.06       0.30 r
+  r68/U1_1_4/S (HA_X1)                     0.07       0.37 r
+  r68/SUM[4] (inccomp_DW01_inc_0)          0.00       0.37 r
+  U98/Z (MUX2_X1)                          0.06       0.43 r
+  U80/ZN (INV_X1)                          0.03       0.46 f
+  U70/ZN (OAI221_X1)                       0.06       0.52 r
+  U69/ZN (OAI221_X1)                       0.05       0.57 f
+  U68/ZN (OAI21_X1)                        0.04       0.61 r
+  U67/ZN (OAI21_X1)                        0.03       0.65 f
+  U66/ZN (OAI221_X1)                       0.03       0.68 r
+  U65/ZN (INV_X1)                          0.02       0.70 f
+  U64/ZN (AOI21_X1)                        0.14       0.85 r
+  U63/Z (MUX2_X1)                          0.09       0.93 f
+  C_reg[0]/D (DFFR_X1)                     0.01       0.94 f
+  data arrival time                                   0.94
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  C_reg[0]/CK (DFFR_X1)                    0.00       5.00 r
+  library setup time                      -0.04       4.96
+  data required time                                  4.96
+  -----------------------------------------------------------
+  data required time                                  4.96
+  data arrival time                                  -0.94
+  -----------------------------------------------------------
+  slack (MET)                                         4.02
+
+
+1

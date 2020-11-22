@@ -1,0 +1,88 @@
+
+Power Report Interval
+1040000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testcount/ucounter1/a      1      0   1034000 ps      6000 ps         0 ps
+                 /testcount/ucounter1/ck   1040      0    520000 ps    520000 ps         0 ps
+              /testcount/ucounter1/reset      1      0      2000 ps   1038000 ps         0 ps
+               /testcount/ucounter1/s(7)      2      0    344000 ps    696000 ps         0 ps
+               /testcount/ucounter1/s(6)    167      0    357000 ps    683000 ps         0 ps
+               /testcount/ucounter1/s(5)    248      0    418000 ps    622000 ps         0 ps
+               /testcount/ucounter1/s(4)    216      0    470000 ps    570000 ps         0 ps
+               /testcount/ucounter1/s(3)    261      0    467000 ps    573000 ps         0 ps
+               /testcount/ucounter1/s(2)    261      0    485000 ps    555000 ps         0 ps
+               /testcount/ucounter1/s(1)    257      0    509000 ps    531000 ps         0 ps
+               /testcount/ucounter1/s(0)     64      0    512000 ps    528000 ps         0 ps
+                 /testcount/ucounter1/co      2      0      2000 ps   1037800 ps       200 ps
+       /testcount/ucounter1/register7(1)      2      0    344000 ps    695800 ps       200 ps
+       /testcount/ucounter1/register7(0)      2      0    344000 ps    696000 ps         0 ps
+       /testcount/ucounter1/register6(2)    167      0    360800 ps    679000 ps       200 ps
+       /testcount/ucounter1/register6(1)    167      0    359000 ps    681000 ps         0 ps
+       /testcount/ucounter1/register6(0)    167      0    357000 ps    683000 ps         0 ps
+       /testcount/ucounter1/register5(3)    250      0    420000 ps    619800 ps       200 ps
+       /testcount/ucounter1/register5(2)    250      0    420000 ps    620000 ps         0 ps
+       /testcount/ucounter1/register5(1)    249      0    419000 ps    621000 ps         0 ps
+       /testcount/ucounter1/register5(0)    248      0    418000 ps    622000 ps         0 ps
+       /testcount/ucounter1/register4(4)    218      0    474000 ps    565800 ps       200 ps
+       /testcount/ucounter1/register4(3)    218      0    474000 ps    566000 ps         0 ps
+       /testcount/ucounter1/register4(2)    217      0    473000 ps    567000 ps         0 ps
+       /testcount/ucounter1/register4(1)    217      0    471000 ps    569000 ps         0 ps
+       /testcount/ucounter1/register4(0)    216      0    470000 ps    570000 ps         0 ps
+       /testcount/ucounter1/register3(5)    261      0    476800 ps    563000 ps       200 ps
+       /testcount/ucounter1/register3(4)    261      0    475000 ps    565000 ps         0 ps
+       /testcount/ucounter1/register3(3)    261      0    473000 ps    567000 ps         0 ps
+       /testcount/ucounter1/register3(2)    261      0    471000 ps    569000 ps         0 ps
+       /testcount/ucounter1/register3(1)    261      0    469000 ps    571000 ps         0 ps
+       /testcount/ucounter1/register3(0)    261      0    467000 ps    573000 ps         0 ps
+       /testcount/ucounter1/register2(6)    263      0    492800 ps    547000 ps       200 ps
+       /testcount/ucounter1/register2(5)    263      0    491000 ps    549000 ps         0 ps
+       /testcount/ucounter1/register2(4)    263      0    489000 ps    551000 ps         0 ps
+       /testcount/ucounter1/register2(3)    262      0    488000 ps    552000 ps         0 ps
+       /testcount/ucounter1/register2(2)    262      0    488000 ps    552000 ps         0 ps
+       /testcount/ucounter1/register2(1)    261      0    487000 ps    553000 ps         0 ps
+       /testcount/ucounter1/register2(0)    261      0    485000 ps    555000 ps         0 ps
+       /testcount/ucounter1/register1(7)    263      0    516800 ps    523000 ps       200 ps
+       /testcount/ucounter1/register1(6)    262      0    516000 ps    524000 ps         0 ps
+       /testcount/ucounter1/register1(5)    261      0    515000 ps    525000 ps         0 ps
+       /testcount/ucounter1/register1(4)    260      0    514000 ps    526000 ps         0 ps
+       /testcount/ucounter1/register1(3)    259      0    513000 ps    527000 ps         0 ps
+       /testcount/ucounter1/register1(2)    259      0    511000 ps    529000 ps         0 ps
+       /testcount/ucounter1/register1(1)    258      0    510000 ps    530000 ps         0 ps
+       /testcount/ucounter1/register1(0)    257      0    509000 ps    531000 ps         0 ps
+       /testcount/ucounter1/register0(8)     65      0    521800 ps    518000 ps       200 ps
+       /testcount/ucounter1/register0(7)     65      0    521000 ps    519000 ps         0 ps
+       /testcount/ucounter1/register0(6)     65      0    519000 ps    521000 ps         0 ps
+       /testcount/ucounter1/register0(5)     65      0    517000 ps    523000 ps         0 ps
+       /testcount/ucounter1/register0(4)     65      0    515000 ps    525000 ps         0 ps
+       /testcount/ucounter1/register0(3)     65      0    513000 ps    527000 ps         0 ps
+       /testcount/ucounter1/register0(2)     64      0    512000 ps    528000 ps         0 ps
+       /testcount/ucounter1/register0(1)     64      0    512000 ps    528000 ps         0 ps
+       /testcount/ucounter1/register0(0)     64      0    512000 ps    528000 ps         0 ps
+            /testcount/ucounter1/ctmp(7)      4      0      4000 ps   1036000 ps         0 ps
+            /testcount/ucounter1/ctmp(6)     12      0     12000 ps   1028000 ps         0 ps
+            /testcount/ucounter1/ctmp(5)     24      0     26000 ps   1014000 ps         0 ps
+            /testcount/ucounter1/ctmp(4)     50      0     56000 ps    984000 ps         0 ps
+            /testcount/ucounter1/ctmp(3)     92      0    122000 ps    918000 ps         0 ps
+            /testcount/ucounter1/ctmp(2)    148      0    252000 ps    788000 ps         0 ps
+            /testcount/ucounter1/ctmp(1)     64      0    512000 ps    528000 ps         0 ps
+            /testcount/ucounter1/ctmp(0)      1      0   1034000 ps      6000 ps         0 ps
+        /testcount/ucounter1/ctmppipe(7)      2      0      2000 ps   1037800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(6)      4      0      4000 ps   1035800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(5)     12      0     12000 ps   1027800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(4)     24      0     26000 ps   1013800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(3)     50      0     56000 ps    983800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(2)     92      0    122000 ps    917800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(1)    148      0    252000 ps    787800 ps       200 ps
+        /testcount/ucounter1/ctmppipe(0)     64      0    512000 ps    527800 ps       200 ps
+        /testcount/ucounter1/stmpsync(7)      2      0    344000 ps    696000 ps         0 ps
+        /testcount/ucounter1/stmpsync(6)    167      0    357000 ps    683000 ps         0 ps
+        /testcount/ucounter1/stmpsync(5)    248      0    418000 ps    622000 ps         0 ps
+        /testcount/ucounter1/stmpsync(4)    216      0    470000 ps    570000 ps         0 ps
+        /testcount/ucounter1/stmpsync(3)    261      0    467000 ps    573000 ps         0 ps
+        /testcount/ucounter1/stmpsync(2)    261      0    485000 ps    555000 ps         0 ps
+        /testcount/ucounter1/stmpsync(1)    257      0    509000 ps    531000 ps         0 ps
+        /testcount/ucounter1/stmpsync(0)     64      0    512000 ps    528000 ps         0 ps
+---------------------------------------------------------------------------------------------
+

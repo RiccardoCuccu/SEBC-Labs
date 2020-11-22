@@ -1,0 +1,74 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : COUNT
+Version: F-2011.09-SP3
+Date   : Wed Apr 10 12:33:41 2019
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: DFFI_1/Q_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: DFFI_8/Q_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  COUNT              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  DFFI_1/Q_reg/CK (DFFR_X1)                0.00       0.00 r
+  DFFI_1/Q_reg/Q (DFFR_X1)                 0.11       0.11 r
+  DFFI_1/Q (FD_0)                          0.00       0.11 r
+  HAI_1/A (HA_0)                           0.00       0.11 r
+  HAI_1/U2/ZN (AND2_X1)                    0.05       0.16 r
+  HAI_1/Co (HA_0)                          0.00       0.16 r
+  HAI_2/B (HA_7)                           0.00       0.16 r
+  HAI_2/U2/ZN (AND2_X1)                    0.05       0.20 r
+  HAI_2/Co (HA_7)                          0.00       0.20 r
+  HAI_3/B (HA_6)                           0.00       0.20 r
+  HAI_3/U2/ZN (AND2_X1)                    0.05       0.25 r
+  HAI_3/Co (HA_6)                          0.00       0.25 r
+  HAI_4/B (HA_5)                           0.00       0.25 r
+  HAI_4/U2/ZN (AND2_X1)                    0.05       0.30 r
+  HAI_4/Co (HA_5)                          0.00       0.30 r
+  HAI_5/B (HA_4)                           0.00       0.30 r
+  HAI_5/U2/ZN (AND2_X1)                    0.05       0.34 r
+  HAI_5/Co (HA_4)                          0.00       0.34 r
+  HAI_6/B (HA_3)                           0.00       0.34 r
+  HAI_6/U2/ZN (AND2_X1)                    0.05       0.39 r
+  HAI_6/Co (HA_3)                          0.00       0.39 r
+  HAI_7/B (HA_2)                           0.00       0.39 r
+  HAI_7/U2/ZN (AND2_X1)                    0.05       0.44 r
+  HAI_7/Co (HA_2)                          0.00       0.44 r
+  HAI_8/B (HA_1)                           0.00       0.44 r
+  HAI_8/U1/Z (XOR2_X1)                     0.06       0.50 r
+  HAI_8/S (HA_1)                           0.00       0.50 r
+  DFFI_8/D (FD_1)                          0.00       0.50 r
+  DFFI_8/Q_reg/D (DFFR_X1)                 0.01       0.51 r
+  data arrival time                                   0.51
+
+  clock clk (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  DFFI_8/Q_reg/CK (DFFR_X1)                0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.51
+  -----------------------------------------------------------
+  slack (MET)                                         1.45
+
+
+1

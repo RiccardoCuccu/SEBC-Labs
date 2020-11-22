@@ -1,0 +1,42 @@
+
+Power Report Interval
+100000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testbench/UBUSNORM/ck  20000      0  50000000 ps  50000000 ps         0 ps
+                 /testbench/UBUSNORM/rst      2      0       200 ps  99999800 ps         0 ps
+                /testbench/UBUSNORM/a(7)   4974      0  50030000 ps  49970000 ps         0 ps
+                /testbench/UBUSNORM/a(6)   5022      0  49460000 ps  50540000 ps         0 ps
+                /testbench/UBUSNORM/a(5)   4987      0  49384900 ps  50615100 ps         0 ps
+                /testbench/UBUSNORM/a(4)   4972      0  49970000 ps  50030000 ps         0 ps
+                /testbench/UBUSNORM/a(3)   4960      0  51250000 ps  48750000 ps         0 ps
+                /testbench/UBUSNORM/a(2)   4965      0  49894900 ps  50105100 ps         0 ps
+                /testbench/UBUSNORM/a(1)   5024      0  50000000 ps  50000000 ps         0 ps
+                /testbench/UBUSNORM/a(0)   5060      0  49940000 ps  50060000 ps         0 ps
+                /testbench/UBUSNORM/b(7)   4974      0  50030000 ps  49969900 ps       100 ps
+                /testbench/UBUSNORM/b(6)   5021      0  49455000 ps  50544900 ps       100 ps
+                /testbench/UBUSNORM/b(5)   4987      0  49375000 ps  50624900 ps       100 ps
+                /testbench/UBUSNORM/b(4)   4972      0  49970000 ps  50029900 ps       100 ps
+                /testbench/UBUSNORM/b(3)   4959      0  51245000 ps  48754900 ps       100 ps
+                /testbench/UBUSNORM/b(2)   4965      0  49885000 ps  50114900 ps       100 ps
+                /testbench/UBUSNORM/b(1)   5023      0  49995000 ps  50004900 ps       100 ps
+                /testbench/UBUSNORM/b(0)   5060      0  49940000 ps  50059900 ps       100 ps
+                /testbench/UBUSNORM/c(7)   4973      0  50025000 ps  49974900 ps       100 ps
+                /testbench/UBUSNORM/c(6)   5021      0  49445000 ps  50554900 ps       100 ps
+                /testbench/UBUSNORM/c(5)   4987      0  49365000 ps  50634900 ps       100 ps
+                /testbench/UBUSNORM/c(4)   4972      0  49970000 ps  50029900 ps       100 ps
+                /testbench/UBUSNORM/c(3)   4958      0  51240000 ps  48759900 ps       100 ps
+                /testbench/UBUSNORM/c(2)   4964      0  49880000 ps  50119900 ps       100 ps
+                /testbench/UBUSNORM/c(1)   5023      0  49985000 ps  50014900 ps       100 ps
+                /testbench/UBUSNORM/c(0)   5060      0  49940000 ps  50059900 ps       100 ps
+             /testbench/UBUSNORM/buss(7)   4974      0  50030000 ps  49969900 ps       100 ps
+             /testbench/UBUSNORM/buss(6)   5021      0  49455000 ps  50544900 ps       100 ps
+             /testbench/UBUSNORM/buss(5)   4987      0  49375000 ps  50624900 ps       100 ps
+             /testbench/UBUSNORM/buss(4)   4972      0  49970000 ps  50029900 ps       100 ps
+             /testbench/UBUSNORM/buss(3)   4959      0  51245000 ps  48754900 ps       100 ps
+             /testbench/UBUSNORM/buss(2)   4965      0  49885000 ps  50114900 ps       100 ps
+             /testbench/UBUSNORM/buss(1)   5023      0  49995000 ps  50004900 ps       100 ps
+             /testbench/UBUSNORM/buss(0)   5060      0  49940000 ps  50059900 ps       100 ps
+---------------------------------------------------------------------------------------------
+

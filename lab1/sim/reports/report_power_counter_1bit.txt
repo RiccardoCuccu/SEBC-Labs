@@ -1,0 +1,16 @@
+
+Power Report Interval
+20000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testcount/ucounter1/a      2      0      6000 ps     14000 ps         0 ps
+                 /testcount/ucounter1/ck     20      0     10000 ps     10000 ps         0 ps
+              /testcount/ucounter1/reset      1      0      2000 ps     18000 ps         0 ps
+                  /testcount/ucounter1/s      3      0     11000 ps      9000 ps         0 ps
+                 /testcount/ucounter1/co      4      0      3000 ps     17000 ps         0 ps
+                /testcount/ucounter1/sum      5      0     11000 ps      9000 ps         0 ps
+               /testcount/ucounter1/stmp      5      0     11000 ps      9000 ps         0 ps
+           /testcount/ucounter1/stmpsync      3      0     11000 ps      9000 ps         0 ps
+---------------------------------------------------------------------------------------------
+

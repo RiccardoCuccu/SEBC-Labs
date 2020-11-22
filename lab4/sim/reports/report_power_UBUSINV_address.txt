@@ -1,0 +1,60 @@
+
+Power Report Interval
+100000000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                   /testbench/UBUSINV/ck  20000      0  50000000 ps  50000000 ps         0 ps
+                  /testbench/UBUSINV/rst      2      0       200 ps  99999800 ps         0 ps
+                 /testbench/UBUSINV/a(7)     97      0  48164900 ps  51835100 ps         0 ps
+                 /testbench/UBUSINV/a(6)    118      0  37760000 ps  62240000 ps         0 ps
+                 /testbench/UBUSINV/a(5)    312      0  49927000 ps  50073000 ps         0 ps
+                 /testbench/UBUSINV/a(4)    625      0  49931900 ps  50068100 ps         0 ps
+                 /testbench/UBUSINV/a(3)   1250      0  50007000 ps  49993000 ps         0 ps
+                 /testbench/UBUSINV/a(2)   2500      0  50007000 ps  49993000 ps         0 ps
+                 /testbench/UBUSINV/a(1)   5000      0  50007000 ps  49993000 ps         0 ps
+                 /testbench/UBUSINV/a(0)  10000      0  50007000 ps  49993000 ps         0 ps
+                 /testbench/UBUSINV/b(8)    624      0  49920000 ps  50079900 ps       100 ps
+                 /testbench/UBUSINV/b(7)    527      0  50075000 ps  49924900 ps       100 ps
+                 /testbench/UBUSINV/b(6)    506      0  49920000 ps  50079900 ps       100 ps
+                 /testbench/UBUSINV/b(5)    312      0  49920000 ps  50079900 ps       100 ps
+                 /testbench/UBUSINV/b(3)    625      0  49995000 ps  50004900 ps       100 ps
+                 /testbench/UBUSINV/b(2)   1875      0  49995000 ps  50004900 ps       100 ps
+                 /testbench/UBUSINV/b(1)   4375      0  49995000 ps  50004900 ps       100 ps
+                 /testbench/UBUSINV/b(0)   9375      0  49995000 ps  50004900 ps       100 ps
+                 /testbench/UBUSINV/c(7)     97      0  48145000 ps  51854900 ps       100 ps
+                 /testbench/UBUSINV/c(6)    118      0  37760000 ps  62239900 ps       100 ps
+                 /testbench/UBUSINV/c(5)    312      0  49920000 ps  50079900 ps       100 ps
+                 /testbench/UBUSINV/c(4)    624      0  49920000 ps  50079900 ps       100 ps
+                 /testbench/UBUSINV/c(3)   1249      0  49985000 ps  50014900 ps       100 ps
+                 /testbench/UBUSINV/c(2)   2499      0  49985000 ps  50014900 ps       100 ps
+                 /testbench/UBUSINV/c(1)   4999      0  49985000 ps  50014900 ps       100 ps
+                 /testbench/UBUSINV/c(0)   9998      0  49990000 ps  50009900 ps       100 ps
+              /testbench/UBUSINV/aold(7)    527      0  50075000 ps  49924900 ps       100 ps
+              /testbench/UBUSINV/aold(6)    506      0  49920000 ps  50079900 ps       100 ps
+              /testbench/UBUSINV/aold(5)    312      0  49920000 ps  50079900 ps       100 ps
+              /testbench/UBUSINV/aold(3)    625      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/aold(2)   1875      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/aold(1)   4375      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/aold(0)   9375      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/buss(7)    527      0  50075000 ps  49924900 ps       100 ps
+              /testbench/UBUSINV/buss(6)    506      0  49920000 ps  50079900 ps       100 ps
+              /testbench/UBUSINV/buss(5)    312      0  49920000 ps  50079900 ps       100 ps
+              /testbench/UBUSINV/buss(3)    625      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/buss(2)   1875      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/buss(1)   4375      0  49995000 ps  50004900 ps       100 ps
+              /testbench/UBUSINV/buss(0)   9375      0  49995000 ps  50004900 ps       100 ps
+                /testbench/UBUSINV/ax(8)    624      0  49920000 ps  50079900 ps       100 ps
+                /testbench/UBUSINV/ax(7)    624      0  48959700 ps  51040200 ps       100 ps
+                /testbench/UBUSINV/ax(6)    624      0  48751800 ps  51248100 ps       100 ps
+                /testbench/UBUSINV/ax(5)    624      0  46838200 ps  53161700 ps       100 ps
+                /testbench/UBUSINV/ax(4)    625      0  49931900 ps  50068000 ps       100 ps
+                /testbench/UBUSINV/ax(3)   1875      0  49941800 ps  50058100 ps       100 ps
+                /testbench/UBUSINV/ax(2)   4375      0  49961600 ps  50038300 ps       100 ps
+                /testbench/UBUSINV/ax(1)   9375      0  50001200 ps  49998700 ps       100 ps
+                /testbench/UBUSINV/ax(0)  19375      0  50080400 ps  49919500 ps       100 ps
+                  /testbench/UBUSINV/inv    624      0  49920000 ps  50079900 ps       100 ps
+               /testbench/UBUSINV/invold    624      0  49920000 ps  50079900 ps       100 ps
+               /testbench/UBUSINV/invtmp    625      0  49931900 ps  50068100 ps         0 ps
+---------------------------------------------------------------------------------------------
+

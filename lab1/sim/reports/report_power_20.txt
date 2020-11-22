@@ -1,0 +1,30 @@
+
+Power Report Interval
+10000 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                             /tbprob/clk     20      0      5000 ps      5000 ps         0 ps
+                           /tbprob/reset      1      0      1000 ps      9000 ps         0 ps
+                              /tbprob/ld      1      0      2000 ps      8000 ps         0 ps
+                        /tbprob/dout(15)      5      0      5500 ps      4500 ps         0 ps
+                        /tbprob/dout(14)      4      0      5000 ps      5000 ps         0 ps
+                        /tbprob/dout(13)      3      0      4500 ps      5500 ps         0 ps
+                        /tbprob/dout(12)      3      0      3500 ps      6500 ps         0 ps
+                        /tbprob/dout(11)      3      0      2500 ps      7500 ps         0 ps
+                        /tbprob/dout(10)      3      0      1500 ps      8500 ps         0 ps
+                         /tbprob/dout(9)      2      0      1000 ps      9000 ps         0 ps
+                         /tbprob/dout(8)      1      0       500 ps      9500 ps         0 ps
+                         /tbprob/dout(0)      1      0      2500 ps      7500 ps         0 ps
+                             /tbprob/iva      1      0      2500 ps      7500 ps         0 ps
+                             /tbprob/ivy      1      0      7400 ps      2500 ps       100 ps
+                            /tbprob/anda      1      0      2500 ps      7500 ps         0 ps
+                            /tbprob/andb      5      0      5500 ps      4500 ps         0 ps
+                             /tbprob/ora      1      0      2500 ps      7500 ps         0 ps
+                             /tbprob/orb      5      0      5500 ps      4500 ps         0 ps
+                             /tbprob/ory      4      0      7900 ps      2000 ps       100 ps
+                              /tbprob/xa      1      0      2500 ps      7500 ps         0 ps
+                              /tbprob/xb      5      0      5500 ps      4500 ps         0 ps
+                              /tbprob/xy      4      0      7900 ps      2000 ps       100 ps
+---------------------------------------------------------------------------------------------
+

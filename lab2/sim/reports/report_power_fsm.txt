@@ -1,0 +1,14 @@
+
+Power Report Interval
+6500 ps
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+               /tbadd/top_test/fsm/clock     13      0      3000 ps      3500 ps         0 ps
+               /tbadd/top_test/fsm/reset      1      0      1000 ps      5500 ps         0 ps
+               /tbadd/top_test/fsm/sel00      2      0      3000 ps      3500 ps         0 ps
+               /tbadd/top_test/fsm/sel01      3      0      2000 ps      4500 ps         0 ps
+               /tbadd/top_test/fsm/sel10      2      0      2000 ps      4500 ps         0 ps
+               /tbadd/top_test/fsm/sel11      3      0      3000 ps      3500 ps         0 ps
+---------------------------------------------------------------------------------------------
+
